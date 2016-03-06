@@ -1,6 +1,4 @@
-import "locale";
-
-var d3_locale_jaJP = d3.locale({
+var d3_locale = {
   decimal: ".",
   thousands: ",",
   grouping: [3],
@@ -13,4 +11,4 @@ var d3_locale_jaJP = d3.locale({
   shortDays: ["日", "月", "火", "水", "木", "金", "土"],
   months: ["睦月", "如月", "弥生", "卯月", "皐月", "水無月", "文月", "葉月", "長月", "神無月", "霜月", "師走"],
   shortMonths: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
-});
+};

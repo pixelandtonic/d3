@@ -1,6 +1,4 @@
-import "locale";
-
-var d3_locale_fiFI = d3.locale({
+var d3_locale = {
   decimal: ",",
   thousands: "\xa0",
   grouping: [3],
@@ -13,4 +11,4 @@ var d3_locale_fiFI = d3.locale({
   shortDays: ["Su", "Ma", "Ti", "Ke", "To", "Pe", "La"],
   months: ["tammikuu", "helmikuu", "maaliskuu", "huhtikuu", "toukokuu", "kesäkuu", "heinäkuu", "elokuu", "syyskuu", "lokakuu", "marraskuu", "joulukuu"],
   shortMonths: ["Tammi", "Helmi", "Maalis", "Huhti", "Touko", "Kesä", "Heinä", "Elo", "Syys", "Loka", "Marras", "Joulu"]
-});
+};

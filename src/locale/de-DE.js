@@ -1,6 +1,4 @@
-import "locale";
-
-var d3_locale_deDE = d3.locale({
+var d3_locale = {
   decimal: ",",
   thousands: ".",
   grouping: [3],
@@ -13,4 +11,4 @@ var d3_locale_deDE = d3.locale({
   shortDays: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
   months: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
   shortMonths: ["Jan", "Feb", "Mrz", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
-});
+};

@@ -1,6 +1,4 @@
-import "locale";
-
-var d3_locale_huHU = d3.locale({
+var d3_locale = {
   decimal: ",",
   thousands: "\xa0",
   grouping: [3],
@@ -13,4 +11,4 @@ var d3_locale_huHU = d3.locale({
   shortDays: ["V", "H", "K", "Sze", "Cs", "P", "Szo"],
   months: ["január", "február", "március", "április", "május", "június", "július", "augusztus", "szeptember", "október", "november", "december"],
   shortMonths: ["jan.", "feb.", "már.", "ápr.", "máj.", "jún.", "júl.", "aug.", "szept.", "okt.", "nov.", "dec."]
-});
+};
